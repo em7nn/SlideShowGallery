@@ -1,0 +1,35 @@
+.yazi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkorchid;
+}
+.main_pic{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .main_pic img{
+    border: 5px solid goldenrod;
+    padding: 10px;
+    background-color: firebrick;
+    width: 800px;
+    height: 500px;
+  }
+  .little_pic{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 150px;
+  }
+  .little_pic img{
+    border: 5px solid turquoise;
+    padding: 10px;
+    background-color: firebrick;
+    width: 300px;
+    height: 200px;
+  }
